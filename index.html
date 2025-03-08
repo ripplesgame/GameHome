@@ -107,7 +107,7 @@
 <body>
     <div class="game-container">
         <!-- 游戏卡片1 -->
-        <div class="game-card">
+        <div class="game-card" onclick="gotoPage('https://ripplesgame.github.io/DreamyHaremStoryGame/')">
             <div class="new-tag">NEW</div>
             <img src="1.png" alt="梦幻后宫物语" class="game-thumb">
             <div class="game-info">
@@ -117,6 +117,12 @@
         </div>
 
     </div>
+
+    <script>
+        function gotoPage(url) {
+            url && window.open(url);
+        }
+    </script>
 </body>
 
 </html>
