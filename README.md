@@ -1,1 +1,2 @@
 # GameHome
+game home page
